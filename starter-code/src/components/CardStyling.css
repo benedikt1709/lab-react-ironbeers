@@ -1,0 +1,38 @@
+.card{
+    margin: 1rem !important;
+}
+.card:hover{
+    box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.255)!important
+}
+.card-img-top{
+    transform: scale(1);
+    transition: transform 0.5s ease;
+    object-fit: fill;
+    object-position: center center;
+    width: 30% !important;
+    margin-top: 10px;
+}
+
+.card-img-top:hover{
+    transform:scale(1.5)
+}
+
+.overflow{
+    overflow:hidden;
+    /* width: 70% !important; */
+}
+
+.card-body{
+    padding: 1rem 0 !important;
+}
+
+.card-text  {
+    font-size: 0.9rem;
+    padding: 0.4rem 1.9rem;
+    max-width: 40rem !important;
+    object-position: center;
+}
+
+.container-fluid    {
+    padding-top: 6rem;
+}
